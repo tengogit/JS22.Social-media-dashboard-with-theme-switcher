@@ -1,0 +1,38 @@
+@media(min-width:768px) {
+    header {
+        max-width: 768px;
+        padding: 36px 113px 82px 113px;
+    }
+
+    h1 {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .cont {
+        max-width: 768px;
+        top: 194px;
+        padding: 0 113px 71px 113px;
+    }
+
+    main {
+        width: 542px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 32px;
+        row-gap: 32px;
+        align-items: start;
+
+    }
+
+    .follower-card,
+    .likes-card {
+        width: 255px;
+    }
+
+    article {
+        width: 542px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

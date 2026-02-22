@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --h-color: #1D1F29;
+    --small-color: #63687D;
+    --line-bg: #848BAB;
+    --switch-bg: #AEB3CB;
+    --button-bg: #F1F3FA;
+    --follower-card-bg: #F1F3FA;
+    --follower-card-border: #178FF5;
+    --span-color: #63687D;
+    --p-color: #63687D;
+    --h6-color: #1EB589;
+    --h3-color: #63687D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    user-select: none;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
+    position: relative;
+
+
+}
+
+img,
+picture {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+div {
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    max-width: 430px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    padding: 36px 24px 78px 25px;
+    border-radius: 0 0 20px 20px;
+
+}
+
+.header-box {
+    position: relative;
+    gap: 24px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 115%;
+    font-weight: 700;
+    color: var(--h-color);
+}
+
+small {
+    color: var(--small-color);
+    line-height: 125%;
+    font-weight: 700;
+}
+
+.line {
+    height: 1px;
+    background-color: var(--line-bg);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+.mode,
+.switch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.switch {
+    width: 50px;
+    height: 24px;
+    background-color: var(--switch-bg);
+    border-radius: 12px;
+    padding: 0 3px;
+}
+
+button {
+    background-color: var(--button-bg);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+
+
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+main,
+.cont,
+.header-box,
+.follower-card-txt,
+.txt,
+section,
+.stats,
+.icons,
+article {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cont {
+
+    gap: 48px;
+    width: 100%;
+    max-width: 430px;
+    padding: 0 25px 47px 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 190px;
+}
+
+/*mainnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
+main {
+
+    gap: 24px;
+
+}
+
+.follower-card {
+    border-radius: 5px;
+    border-top: 4px solid var(--follower-card-border);
+    background-color: var(--follower-card-bg);
+    padding: 32px 64px;
+    height: 200px;
+    gap: 24px;
+}
+
+.follower-card-txt {
+
+    gap: 24px;
+    align-items: center;
+    max-width: 129px;
+    margin: 0 auto;
+}
+
+a,
+.amount {
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 125%;
+    color: var(--span-color);
+}
+
+.txt {
+    gap: 8px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--h-color);
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 85%;
+}
+
+p {
+    font-size: 12px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+h6 {
+    color: var(--h6-color);
+    font-size: 12px;
+    line-height: 125%;
+    font-weight: 700;
+}
+
+.instagram {
+    border-top: 4px solid #EE877E;
+}
+
+.github {
+    border-top: 4px solid green;
+}
+
+.linkedin h6 {
+    color: #DC414C;
+}
+
+
+/*sectionnnnnnnnnnnnnnn*/
+section,
+.stats,
+.icons {
+    gap: 24px;
+
+}
+
+section {
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--h3-color);
+    line-height: 125%;
+}
+
+article {
+
+    width: 326px;
+    gap: 16px;
+}
+
+.likes-card {
+    width: 100%;
+    max-width: 326px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.stats {
+    gap: 24px;
+
+
+
+}
+
+.icons {
+    align-items: flex-end;
+    gap: 50px;
+}
+
+h4 {
+    font-size: 32px;
+    line-height: 125%;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*dark modeeee*/
+.body-dark {
+    background-color: #1D1F29;
+}
+
+.header-dark {
+    background-color: #20222F;
+
+}
+
+.button-position {
+    transform: translateX(25px);
+}
+
+.button-dark {
+    background-color: #252B42;
+}
+
+.switch-dark {
+    background: linear-gradient(#40DB82, #388FE7);
+}
+
+.card-dark {
+    background-color: #252B42;
+    ;
+}
+
+.h-dark {
+    color: white;
+}
+
+.p-dark {
+    color: #AEB3CB;
+}
+
+
+
+.lang {
+    width: max-content;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.geo,
+.uk {
+    width: 35px;
+}
