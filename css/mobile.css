@@ -12,6 +12,7 @@
     --p-color: #63687D;
     --h6-color: #1EB589;
     --h3-color: #63687D;
+    --likes-card-bg:#F1F3FA;
 }
 
 * {
@@ -248,6 +249,7 @@ article {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    background-color: var(--likes-card-bg);
 
 }
 
