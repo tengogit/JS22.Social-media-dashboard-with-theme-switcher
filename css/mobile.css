@@ -250,6 +250,7 @@ article {
     justify-content: space-between;
     margin: 0 auto;
     background-color: var(--likes-card-bg);
+    border-radius: 5px;
 
 }
 
